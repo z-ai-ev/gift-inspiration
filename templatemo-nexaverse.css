@@ -631,52 +631,6 @@ body {
 	margin-bottom: 35px;
 }
 
-.intro-cta-group {
-	display: flex;
-	gap: 15px;
-}
-
-.intro-cta-primary {
-	padding: 14px 32px;
-	background: var(--glass-bg);
-	backdrop-filter: blur(20px);
-	-webkit-backdrop-filter: blur(20px);
-	border: 1px solid var(--primary);
-	border-radius: 50px;
-	color: var(--primary);
-	font-family: 'Outfit', sans-serif;
-	font-size: 14px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	cursor: pointer;
-	transition: all 0.3s ease;
-}
-
-.intro-cta-primary:hover {
-	background: rgba(0, 240, 255, 0.15);
-	box-shadow: 0 0 25px rgba(0, 200, 220, 0.3);
-	transform: translateY(-2px);
-}
-
-.intro-cta-secondary {
-	padding: 14px 32px;
-	background: transparent;
-	border: 1px solid var(--glass-border);
-	border-radius: 50px;
-	color: rgba(255, 255, 255, 0.7);
-	font-family: 'Outfit', sans-serif;
-	font-size: 14px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	cursor: pointer;
-	transition: all 0.3s ease;
-}
-
-.intro-cta-secondary:hover {
-	border-color: rgba(255, 255, 255, 0.3);
-	color: #ffffff;
-}
-
 /* Hero Visual */
 .intro-hero-visual {
 	position: relative;
@@ -1666,4 +1620,5 @@ body {
 	}
 
 }
+
 
