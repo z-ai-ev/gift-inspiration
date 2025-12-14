@@ -1,10 +1,4 @@
-/* JavaScript Document
-
-TemplateMo 603 Nexaverse
-
-https://templatemo.com/tm-603-nexaverse
-
-*/
+/* JavaScript Document */
 
 // Loading Screen
 window.addEventListener('load', () => {
@@ -247,3 +241,4 @@ function filterGallery(category, btn) {
       }
    });
 }
+
