@@ -867,75 +867,6 @@ body {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-/* Tech Stack */
-.intro-tech {
-	text-align: center;
-}
-
-.tech-label {
-	font-size: 12px;
-	letter-spacing: 3px;
-	color: rgba(255, 255, 255, 0.4);
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-
-.tech-marquee {
-	overflow: hidden;
-	position: relative;
-	padding: 20px 0;
-}
-
-.tech-marquee::before,
-.tech-marquee::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100px;
-	z-index: 2;
-	pointer-events: none;
-}
-
-.tech-marquee::before {
-	left: 0;
-	background: linear-gradient(90deg, var(--dark-1), transparent);
-}
-
-.tech-marquee::after {
-	right: 0;
-	background: linear-gradient(-90deg, var(--dark-1), transparent);
-}
-
-.tech-track {
-	display: flex;
-	gap: 40px;
-	animation: marquee 20s linear infinite;
-}
-
-@keyframes marquee {
-	0% {
-		transform: translateX(0);
-	}
-
-	100% {
-		transform: translateX(-50%);
-	}
-}
-
-.tech-item {
-	font-family: 'Syne', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	color: rgba(255, 255, 255, 0.3);
-	white-space: nowrap;
-	transition: color 0.3s ease;
-}
-
-.tech-item:hover {
-	color: var(--primary);
-}
-
 /* Services Row Layout */
 .services-list {
 	display: grid;
@@ -1544,6 +1475,7 @@ body {
 	}
 
 }
+
 
 
 
